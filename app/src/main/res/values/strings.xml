@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TITUSLWIMBA20244095LAB.1</string>
+    <string name="btn_timetable">Timetable</string>
+    <string name="btn_notices">Notices</string>
+    <string name="btn_announcements">Announcements</string>
+    <string name="title_announcements">Announcement Activity</string>
+    <string name="title_notices">Notices Activity</string>
+    <string name="title_timetable">Timetable Activity</string>
+    <string name="timetable_content">Monday\n09:00 - 11:00: Mobile App Development\n11:30 - 13:30: Database Systems\n\nTuesday\n10:00 - 12:00: Software Engineering\n14:00 - 16:00: Web Programming\n\nWednesday\n08:00 - 10:00: Data Structures\n11:00 - 13:00: Networking Fundamentals\n\nThursday\n09:00 - 12:00: Project Management\n\nFriday\n10:00 - 12:00: Cyber Security\n14:00 - 16:00: Ethics in IT</string>
+    <string name="announcements_content">1. Semester Registration Open\nPlease register your courses by the end of this week to avoid late fees.\n\n2. Holiday Notice\nThe campus will be closed on Friday for the upcoming national holiday.\n\n3. Guest Lecture\nJoin us for a seminar on AI in Health Care this Thursday at 2 PM in the main hall.\n\n4. Sports Day Results\nCongratulations to the blue team for winning the inter-department cup!</string>
+    <string name="notices_content">⚠️ EXAM ALERT: Mid-semester exams will begin on the 15th of next month.\n\n⚠️ MAINTENANCE: The student portal will be down for maintenance this Saturday from 10 PM to 2 AM.\n\n⚠️ POLICY UPDATE: New library borrowing policies are now in effect. Please check the website for details.\n\n⚠️ PARKING: Student parking lot B is temporarily closed for repairs.</string>
+    <string name="title_timetable_header">Weekly Timetable</string>
+    <string name="title_announcements_header">Latest Announcements</string>
+    <string name="title_notices_header">Important Notices</string>
+</resources>
