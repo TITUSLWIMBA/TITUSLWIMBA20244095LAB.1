@@ -12,4 +12,22 @@
     <string name="title_timetable_header">Weekly Timetable</string>
     <string name="title_announcements_header">Latest Announcements</string>
     <string name="title_notices_header">Important Notices</string>
+
+    <!-- Empty States -->
+    <string name="empty_timetable">No timetable found for this week.</string>
+    <string name="empty_notices">No new notices at the moment.</string>
+    <string name="empty_announcements">No announcements available.</string>
+    <string name="empty_menu">No menu options available.</string>
+
+    <!-- Error States -->
+    <string name="error_timetable">Error loading timetable. Please try again later.</string>
+    <string name="error_notices">Could not retrieve notices. Check your connection.</string>
+    <string name="error_announcements">An error occurred while fetching announcements.</string>
+    <string name="error_menu">Failed to load menu items.</string>
+
+    <!-- Accessibility Notes -->
+    <string name="acc_main_menu">Main navigation menu for university services.</string>
+    <string name="acc_timetable_content">Weekly class schedule details.</string>
+    <string name="acc_notices_content">Important university notices and alerts.</string>
+    <string name="acc_announcements_content">Latest campus announcements and news.</string>
 </resources>

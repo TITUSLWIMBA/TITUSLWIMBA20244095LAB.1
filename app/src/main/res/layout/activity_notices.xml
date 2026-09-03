@@ -19,11 +19,34 @@
             android:layout_marginBottom="20dp" />
 
         <TextView
+            android:id="@+id/tvNoticesContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/notices_content"
             android:textSize="18sp"
-            android:lineSpacingExtra="8dp" />
+            android:lineSpacingExtra="8dp"
+            android:contentDescription="@string/acc_notices_content" />
+
+        <!-- Empty State -->
+        <TextView
+            android:id="@+id/tvNoticesEmpty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/empty_notices"
+            android:gravity="center"
+            android:padding="20dp"
+            android:visibility="gone" />
+
+        <!-- Error State -->
+        <TextView
+            android:id="@+id/tvNoticesError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/error_notices"
+            android:textColor="#FF0000"
+            android:gravity="center"
+            android:padding="20dp"
+            android:visibility="gone" />
 
     </LinearLayout>
 </ScrollView>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -12,7 +11,27 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:padding="16dp">
+        android:padding="16dp"
+        android:contentDescription="@string/acc_main_menu">
+
+        <!-- Error State (Hidden) -->
+        <TextView
+            android:id="@+id/tvMainError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/error_menu"
+            android:textColor="#FF0000"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Empty State (Hidden) -->
+        <TextView
+            android:id="@+id/tvMainEmpty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empty_menu"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp" />
 
         <Button
             android:id="@+id/btnTimetable"

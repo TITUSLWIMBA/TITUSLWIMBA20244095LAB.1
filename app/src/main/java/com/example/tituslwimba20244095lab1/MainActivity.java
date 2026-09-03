@@ -4,8 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
-import com.example.tituslwimba20244095lab1.R;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
